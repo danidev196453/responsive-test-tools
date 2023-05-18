@@ -1,0 +1,28 @@
+.stickywrap {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    float: none;
+    overflow: hidden;
+    display: scroll;
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+}
+.stickyzone {
+    text-align: center;
+    display: block;
+    max-width: 970px;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+}
+.stickyzone img {
+    max-width: 95%;
+    height: auto;
+    vertical-align: middle;
+}
+.stickyclose {
+    cursor: pointer;
+    text-align: center;
+}

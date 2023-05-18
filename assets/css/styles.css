@@ -3,7 +3,7 @@ body {
   color: white;
 }
 
-img {
+.brand {
   width: 40px;
   margin-top: 10px;
 }
@@ -50,7 +50,7 @@ input::placeholder {
   outline: 0;
 }
 
-button {
+.btn {
   background-color: gray;
   color: white;
   padding: 10px;
