@@ -8,10 +8,11 @@
   <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/ads.css">
 </head>
 <body align="center">
   <div>
-    <img src="./assets/img/logo.jpg" />
+    <img class="brand" src="./assets/img/logo.jpg" />
     <h4>Website Responsive Testing Tools</h4>
     <form onsubmit="getData(event)" method="GET">
       <div class="search-container">
@@ -85,10 +86,32 @@
         <option value="1000">1000</option>
       </select>
     </form>
-    <div class="content">
+    <div>
+      <a href="https://danzzstore.my.id" id="close-stickyb">
+        <img alt="Close" src="./assets/img/close.png" title="Close this ad" class="stickyclose">
+      </a>
+      <a href="https://wa.me/6289512545999">
+        <img src="./assets/img/ads.jpg" width="95%" alt="Post ADS 1">
+      </a>
+    </div>
+    <br><br>
+    <div id="content" class="content">
       <!-- Content -->
     </div>
   </div>
+  <div id="stickyb" class="stickywrap">
+    <div>
+      <a id="close-stickyb" onclick="closeAd()">
+        <img alt="Close" src="./assets/img/close.png" title="Close this ad" class="stickyclose">
+      </a>
+    </div>
+    <div class="stickyzone">
+      <a href="https://wa.me/6289512545999">
+        <img alt="Joki All Tier MLBB" src="./assets/img/ads.jpg">
+      </a>
+    </div>
+  </div>
   <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/ads.js"></script>
 </body>
 </html>
